@@ -9,8 +9,8 @@ const initialState = {
 const authSlice = ({
     name: 'auth',
     initialState,
-    reducers: {},
+    reducer: {},
 })
 
 // export const {} = authSlice.actions;
-export default authSlice.reducers
+export default authSlice.reducer 

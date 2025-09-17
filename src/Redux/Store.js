@@ -1,11 +1,11 @@
-import { configStorage } from '@reduxjs/toolkit';
-import authSliceReducer from './Slices/AuthSlice'
+import { configureStore } from '@reduxjs/toolkit';
+import authSliceReducer from './Slices/AuthSlice.js';
 
-const store = configStorage({
-    reducer: {
-        auth: authSliceReducer,
-    },
-    devTools: true
-})
+const store = configureStore({
+  reducer: {   // ✅ must be singular
+    auth: authSliceReducer,
+  },
+  devTools: true,
+});
 
-export default store
+export default store;
