@@ -4,7 +4,7 @@ const App = () => {
   return (
     <div>
       <h1>Hello web!!</h1>
-      <p>I am <span>LMS</span></p>
+      <p>I am <span className='text-red-400'>LMS</span></p>
     </div>
   )
 }
