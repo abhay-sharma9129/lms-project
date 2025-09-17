@@ -1,11 +1,16 @@
 import React from 'react'
+import './App.css'
+import { Routes, Route } from 'react-router-dom'
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello web!!</h1>
-      <p>I am <span className='text-red-400'>LMS</span></p>
-    </div>
+    <Routes>
+      <Route to='/home' element={<Home />}>Home</Route>
+      <Route to='/home' element={<Home />}>Home</Route>
+      <Route to='/home' element={<Home />}>Home</Route>
+      <Route to='/home' element={<Home />}>Home</Route>
+      <Route to='/home' element={<Home />}>Home</Route>
+    </Routes>
   )
 }
 

@@ -43,3 +43,5 @@ npm run dev
 ```
   "./src/**/*.{html, js, jsx, ts, tsx}"
 ```
+
+4. Adding pluggins and libraries
